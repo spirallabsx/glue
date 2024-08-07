@@ -2513,6 +2513,7 @@ figcaption {
 }
 
 .eYrVoA {
+    display:none !important;
     letter-spacing: -3px;
     margin-bottom: 80px;
     font-family: Inter, sans-serif;
