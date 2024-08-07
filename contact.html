@@ -64,14 +64,17 @@
 
   <div class="div-block-3">
 
-    <div class="w-form">
+   <script>
+  function onSubmit(token) {
+    setTimeout(function () {
+        document.getElementById('cap-submit').disabled = true;
+    }, 0);
+    document.getElementById('email-form').submit();
+}
 
+   </script>
 
-      <form action="?" method="POST">
-        <div class="g-recaptcha" data-sitekey="6LcswiEqAAAAANHAeo2y9fLElPJzR1xqrjIWvrMz"></div>
-        <br/>
-        <input type="submit" value="Submit">
-      </form>
+    <div class="w-form"> 
 
       <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"
         data-wf-page-id="64c0092d0cc4b40c196a9c47" data-wf-element-id="2fe9e71f-5c18-c309-f787-0a89caf440e0">
@@ -79,7 +82,7 @@
           maxlength="256" name="name-3" data-name="Name 3" placeholder="Name" id="name-3" /><input type="email"
           class="w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Email address" id="email-2"
           required="" /><textarea id="Message-3" name="Message-3" maxlength="5000" data-name="Message 3"
-          placeholder="What are you working on?" class="w-input"></textarea><input type="submit" value="Send"
+          placeholder="What are you working on?" class="w-input"></textarea><input id="cap-submit" type="submit" value="Send"
           data-wait="Please wait..." class="submit-button-2 w-button" />
       </form>
       <div class="w-form-done">
