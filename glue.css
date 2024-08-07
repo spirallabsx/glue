@@ -2512,6 +2512,15 @@ figcaption {
   line-height: 100%;
 }
 
+.eYrVoA {
+    letter-spacing: -3px;
+    margin-bottom: 80px;
+    font-family: Inter, sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
 .text-4xl.no-margin-bottom {
   margin-bottom: 0;
 }
@@ -3202,6 +3211,10 @@ figcaption {
     letter-spacing: -2px;
   }
 
+  .eYrVoA {
+    letter-spacing: -2px;
+  }
+
   .text-4xl.sticky-heading {
     position: static;
   }
@@ -3323,6 +3336,11 @@ figcaption {
   }
 
   .text-4xl {
+    letter-spacing: -2px;
+    font-size: 40px;
+  }
+
+  .eYrVoA {
     letter-spacing: -2px;
     font-size: 40px;
   }
@@ -3485,6 +3503,12 @@ figcaption {
   }
 
   .text-4xl {
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+    font-size: 31px;
+  }
+
+  .eYrVoA {
     letter-spacing: -1px;
     margin-bottom: 15px;
     font-size: 31px;
